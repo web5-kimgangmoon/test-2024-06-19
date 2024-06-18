@@ -1,0 +1,43 @@
+.root {
+  margin: 0;
+}
+form {
+  width: 20rem;
+}
+.inputLine label {
+  font-weight: bold;
+}
+.inputLine input {
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.shadow {
+  box-shadow: -1px 1.5px 0.3rem gray, 1px 1.5px 0.3rem gray;
+}
+.btn-primary {
+  height: 2rem;
+  background-color: rgb(9, 141, 48);
+  color: white;
+  outline: 0;
+  border: 0;
+  padding: 0.25rem;
+}

@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <div class="root">
+    <div class="body d-flex flex-column align-items-center">
+      <div class="todoList-Box">
+        <ol id="todoListOl">
+        </ol>
+      </div>
+      <form id="todoListInput">
+        <fieldset class="rounded">
+          <h1 class="d-flex justify-content-center">todoList 만들기!</h1>
+          <div class="d-flex p-2 inputLine">
+            <label for="titleInput">타이틀 :</label>
+            <input type="text" placeholder="title" name="title" class="flex-grow ms-1" id="titleInput">
+          </div>
+          <div class="d-flex p-2 inputLine">
+            <label for="descriptionInput">설명 :</label>
+            <input type="text" placeholder="description" name="description" class="flex-grow ms-1" id="descriptionInput">
+          </div>
+          <div class="d-flex p-2">
+            <button class="flex-grow btn-primary" type="button" id="todoListSubmit">제출 버튼</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <script src="../lib/mk_elem.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

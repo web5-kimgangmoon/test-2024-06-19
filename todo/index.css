@@ -1,0 +1,92 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+form {
+  width: 20rem;
+}
+ol {
+  margin: 0;
+  padding: 0;
+  color: blue;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+.root {
+  display: flex;
+  justify-content: center;
+}
+
+.inputLine label {
+  font-weight: bold;
+}
+.inputLine input {
+  height: 2rem;
+  font-size: 1rem;
+}
+.title {
+  width: 5rem;
+}
+.complete .textBox {
+  color: red;
+  text-decoration: line-through;
+}
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.btn-primary {
+  height: 2rem;
+  background-color: blue;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.3)
+  );
+  color: white;
+  outline: 0;
+  border: 0;
+  padding: 0.25rem;
+}
+li .btn-primary {
+  height: auto;
+}
+li .btn-warning {
+  background-color: red;
+}
+.btn-primary:focus {
+  background-color: cyan;
+}
+.ms-1 {
+  margin-left: 0.2rem;
+}
+.border-end {
+  border-right: 1px solid black;
+}
+.border-1 {
+  border: 1px solid black;
+}
+.border-bottom-0 {
+  border-bottom: 0;
+}
+.flex-gap-2 {
+  column-gap: 0.5rem;
+}

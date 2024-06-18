@@ -1,0 +1,41 @@
+body {
+  box-sizing: content-box;
+  margin: 0;
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+.calculator {
+  /* width: 20rem; */
+  /* height: 30rem; */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.calculator th {
+  width: 5rem;
+  height: 5rem;
+  text-align: right;
+  padding: 0.3rem;
+}
+.calculator td {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(161, 104, 66, 0.6);
+  cursor: pointer;
+}
+
+.calculator td:active {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+}
+.calculator .output {
+  white-space: pre-wrap;
+}
+.calculator .exp {
+  background-color: rgba(248, 151, 5, 1);
+}
