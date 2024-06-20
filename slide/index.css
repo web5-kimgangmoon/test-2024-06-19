@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+img {
+  /* height: 50rem; */
+  height: 100%;
+  width: 100%;
+  /* width: auto; */
+  /* object-fit: none; */
+}
+.body {
+  width: max-content;
+  margin: auto;
+  justify-content: center;
+}
+.z-1 {
+  z-index: 1;
+}
+.wrapper {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.wrapper .slide {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-wrap: nowrap;
+  top: 0;
+  right: 0;
+}
+.wrapper .button {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  font-size: 1rem;
+  background-color: blue;
+  color: aquamarine;
+  cursor: pointer;
+  text-align: center;
+}
+.wrapper .leftButton {
+  top: calc(50% - 1.5rem);
+  left: 0;
+}
+.wrapper .rightButton {
+  top: calc(50% - 1.5rem);
+  right: 0;
+}
+.wrapper .indexButton {
+  top: unset;
+  bottom: 1rem;
+}
+.wrapper .autoButton {
+  left: 0;
+}
+.wrapper .autoButton.play {
+  background-color: aqua;
+}
+.wrapper .autoButton.pause {
+  background-color: red;
+}
